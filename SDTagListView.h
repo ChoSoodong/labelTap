@@ -9,7 +9,7 @@
 /**
  *  使用说明
  *1、使用的时候直接创建GBtagListView控件，自定义控件的origin、width、高度随传入数组变量变化自适应
- *2、保留几个属性接口方便使用者自定义控件GBbackgroundColor、signalTagColor
+ *2、保留几个属性接口方便使用者自定义控件SDbackgroundColor、signalTagColor
  *3、设置控件属性要放在-(void)setTagWithTagArray:(NSArray*)arr;之前才会有效
  *4、设置过单一标签颜色后，多样色失效单一标签颜色优先级要高于多样色属性
  *5  支持设置上下左右的距离但是方法一定要放在-(void)setTagWithTagArray:(NSArray*)arr;之前，否则失效
